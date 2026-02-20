@@ -1,69 +1,105 @@
-🚀 Deploying a Static Website using GitHub Pages & Vercel
+🎓 Static School Website – GitHub Pages Deployment
 
-This project demonstrates how to deploy a static website built using HTML, CSS, and JavaScript to:
+🚀 Live Website:
+👉 https://sudipto-jury.github.io/Github-Page-URL-Project/
 
-🔹 GitHub Pages
-🔹 Vercel
+This project is a simple static School Website built using HTML, CSS, and JavaScript and deployed using GitHub Pages.
 
-The goal of this repository is to understand how static websites can be hosted online using modern cloud-based platforms.
+The goal of this project was to practice structured Git branching workflow and manual deployment using GitHub Pages.
 
-🛠️ What This Project Covers
+🛠️ Tech Stack
 
-✅ Creating a simple static website
-✅ Managing source code with Git & GitHub
-✅ Deploying manually to GitHub Pages
-✅ Deploying manually to Vercel
-✅ Making the website publicly accessible with a live URL
+HTML
 
-🌍 Deployment Methods
-1️⃣ GitHub Pages
+CSS
 
-Push the project to a GitHub repository
+JavaScript
 
-Go to repository settings
+Git
 
-Enable GitHub Pages
+GitHub
 
-Select branch (main)
+GitHub Pages
 
-Access the generated live website URL
+🌿 Git Branching Strategy Used
 
-✔️ Simple and ideal for portfolios, resumes, and small projects
+Instead of pushing everything directly to main, I followed a structured workflow:
 
-2️⃣ Vercel
+1️⃣ Created Separate Feature Branches
 
-Connect the GitHub repository to Vercel
+feature-html → Developed website structure
 
-Import the project
+feature-css → Added styling and layout
 
-Deploy the site
+feature-js → Implemented JavaScript functionality
 
-Get a live production URL
+2️⃣ Development Process
 
-✔️ Fast deployment and easy hosting for frontend projects
+✔️ Created each feature branch from main
+✔️ Worked independently on each branch
+✔️ Committed changes with proper messages
+✔️ Pushed feature branches to GitHub
 
-🔥 Why This Is Important for DevOps Learning?
+Example commands used:
 
-Even though this is a basic deployment, it helps in understanding:
+git checkout -b feature-html
+git add .
+git commit -m "Added HTML structure"
+git push origin feature-html
+3️⃣ Pull Request & Merge Process
 
-🔹 How applications are hosted online
-🔹 How domain URLs are generated
-🔹 The difference between local development and production hosting
-🔹 Basic cloud platform usage
-🔹 Real-world deployment process for frontend projects
+After completing each feature:
 
-Before learning complex tools, understanding simple deployments builds strong fundamentals.
+Created a Pull Request from feature branch → main
 
-🎯 Skills Demonstrated
+Reviewed changes
 
-HTML, CSS, JavaScript
+Merged using GitHub Pull Request
 
-Git & GitHub
+Used git merge via PR interface
 
-GitHub Pages Hosting
+This helped simulate real-world collaboration workflow.
 
-Vercel Deployment
+🌍 Deployment Using GitHub Pages
 
-Basic Cloud Hosting Concepts
+After merging all feature branches into main:
 
-Simple project, practical knowledge, strong foundation 💻✨
+Went to Repository Settings
+
+Clicked on Pages
+
+Selected branch: main
+
+Saved configuration
+
+GitHub generated a live public URL
+
+Website became accessible globally 🌐
+
+🎯 What I Learned
+
+Proper Git branching workflow
+
+Feature-based development
+
+Pull Request & Merge process
+
+Managing structured commits
+
+Hosting static websites using GitHub Pages
+
+Understanding how code moves from development → production
+
+🔥 Why This Project Matters
+
+Even though it’s a static site, it demonstrates:
+
+Clean Git workflow
+
+Version control best practices
+
+Manual deployment process
+
+Real-world development structure
+
+<img width="1359" height="679" alt="image" src="https://github.com/user-attachments/assets/1c28c8e7-9112-4cc9-9324-831a97f67f02" />
